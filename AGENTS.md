@@ -1,7 +1,7 @@
 # Agent handoff — gt-be98-toolchain
 
 You're working in the **prebuilt cross-toolchain** repo for GT-BE98. Read
-`ARCHITECTURE.md` first for the big picture.
+`gt-be98-buildroot/ARCHITECTURE.md` first for the big picture (canonical copy).
 
 ## State (2026-06-04)
 

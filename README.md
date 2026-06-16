@@ -4,7 +4,8 @@ Prebuilt **external cross-toolchain** for the GT-BE98 router — the minimal set
 Broadcom ARM-HND crosstools the firmware build actually uses, packaged for
 consumption by a Buildroot external toolchain (`BR2_TOOLCHAIN_EXTERNAL_CUSTOM`).
 
-Part of the GT-BE98 repo family (see **[ARCHITECTURE.md](ARCHITECTURE.md)**):
+Part of the GT-BE98 repo family (canonical architecture/migration plan lives in
+**`gt-be98-buildroot/ARCHITECTURE.md`**):
 
 | Repo | Role |
 |------|------|
@@ -51,7 +52,7 @@ Derived from the crosstools directory names:
 The tarball is currently tracked with **Git LFS**. For Buildroot the better
 long-term home is a **GitHub Release asset** — Buildroot fetches external
 toolchains by URL (`BR2_TOOLCHAIN_EXTERNAL_URL`) and Releases avoid LFS bandwidth
-quotas. See `scripts/upload-release.sh` and ARCHITECTURE.md → "Hosting".
+quotas. See `scripts/upload-release.sh` and `gt-be98-buildroot/ARCHITECTURE.md` → "Hosting".
 
 ## Regenerate
 
