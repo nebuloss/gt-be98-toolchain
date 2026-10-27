@@ -4,7 +4,7 @@ Prebuilt **external cross-toolchain** for the GT-BE98 router — the minimal set
 Broadcom ARM-HND crosstools the firmware build actually uses, packaged for
 consumption by a Buildroot external toolchain (`BR2_TOOLCHAIN_EXTERNAL_CUSTOM`).
 
-Part of the GT-BE98 repo family (see **[ARCHITECTURE.md](ARCHITECTURE.md)**):
+Part of the GT-BE98 repo family (see gt-be98-buildroot's **[ARCHITECTURE.md](https://github.com/nebuloss/gt-be98-buildroot/blob/master/ARCHITECTURE.md)**):
 
 | Repo | Role |
 |------|------|
